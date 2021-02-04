@@ -1,0 +1,13 @@
+[package]
+name = "useful_macro_proc"
+version = "0.1.0"
+authors = ["AliusDieMorietur <ikamqwerty@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+rand = "0.8.3"
+syn = { version = "1.0.58", features = ["full"] }
+quote = "1.0.8"
